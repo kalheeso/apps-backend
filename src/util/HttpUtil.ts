@@ -10,7 +10,7 @@ export class HttpUtil {
 
     static falha(resposta: any, response: Response): any {
         return response.status(500).send({
-            'falha:': resposta,
+            'falha': resposta,
         });
     }
 }
